@@ -1,7 +1,7 @@
 {
   "name": "vanban-vn",
   "description": "Skills for Vietnamese official paperwork",
-  "owner": { "name": "ngocanhnckh", "url": "https://github.com/ngocanhnckh" },
+  "owner": { "name": "yitecdeveloper", "url": "https://github.com/yitecdeveloper" },
   "plugins": [
     {
       "name": "van-ban-hanh-chinh-vn",

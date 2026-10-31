@@ -10,11 +10,11 @@ A Claude Agent Skill that turns a sentence into a `.docx` laid out exactly the w
 **Decree 30/2020/NĐ-CP** requires. All 29 official document types. Ships with a
 validator that quotes the clause you broke.
 
-[![CI](https://github.com/ngocanhnckh/claude-skill-vanban-vn/actions/workflows/ci.yml/badge.svg)](https://github.com/ngocanhnckh/claude-skill-vanban-vn/actions/workflows/ci.yml)
+[![CI](https://github.com/yitecdeveloper/claude-skill-vanban-vn/actions/workflows/ci.yml/badge.svg)](https://github.com/yitecdeveloper/claude-skill-vanban-vn/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-0b7285.svg)](LICENSE)
 [![Agent Skill](https://img.shields.io/badge/Claude-Agent%20Skill-d97757)](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview)
 [![Nghị định](https://img.shields.io/badge/N%C4%90-30%2F2020%2FN%C4%90--CP-c8102e)](https://thuvienphapluat.vn/van-ban/bo-may-hanh-chinh/Nghi-dinh-30-2020-ND-CP-cong-tac-van-thu-436532.aspx)
-[![Stars](https://img.shields.io/github/stars/ngocanhnckh/claude-skill-vanban-vn?style=flat&color=f2c744)](https://github.com/ngocanhnckh/claude-skill-vanban-vn/stargazers)
+[![Stars](https://img.shields.io/github/stars/yitecdeveloper/claude-skill-vanban-vn?style=flat&color=f2c744)](https://github.com/yitecdeveloper/claude-skill-vanban-vn/stargazers)
 
 [Install](#install) · [Use it](#use-it) · [29 types](#the-29-document-types) ·
 [What it refuses to do](#what-it-refuses-to-do) · [**Tiếng Việt**](#hướng-dẫn-tiếng-việt)
@@ -55,14 +55,14 @@ by clause, before anything is rendered.
 **Claude Code, as a plugin** (keeps itself updated):
 
 ```bash
-claude plugin marketplace add ngocanhnckh/claude-skill-vanban-vn
+claude plugin marketplace add yitecdeveloper/claude-skill-vanban-vn
 claude plugin install van-ban-hanh-chinh-vn@vanban-vn
 ```
 
 **Claude Code, as a personal skill:**
 
 ```bash
-git clone https://github.com/ngocanhnckh/claude-skill-vanban-vn.git
+git clone https://github.com/yitecdeveloper/claude-skill-vanban-vn.git
 cp -r claude-skill-vanban-vn/skills/van-ban-hanh-chinh-vn ~/.claude/skills/
 ```
 
@@ -224,14 +224,14 @@ mỗi dòng Nơi nhận.
 Trong Claude Code:
 
 ```bash
-claude plugin marketplace add ngocanhnckh/claude-skill-vanban-vn
+claude plugin marketplace add yitecdeveloper/claude-skill-vanban-vn
 claude plugin install van-ban-hanh-chinh-vn@vanban-vn
 ```
 
 Hoặc chép tay vào thư mục skill cá nhân:
 
 ```bash
-git clone https://github.com/ngocanhnckh/claude-skill-vanban-vn.git
+git clone https://github.com/yitecdeveloper/claude-skill-vanban-vn.git
 cp -r claude-skill-vanban-vn/skills/van-ban-hanh-chinh-vn ~/.claude/skills/
 pip install python-docx
 ```
